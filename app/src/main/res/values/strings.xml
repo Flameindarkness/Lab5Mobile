@@ -1,3 +1,23 @@
 <resources>
-    <string name="app_name">Lab5Mobile</string>
+    <string name="app_name">Поиск рейсов</string>
+
+    <string name="search_hint">Код IATA или название аэропорта</string>
+    <string name="search_button">Найти</string>
+
+    <string name="title_favorites">Избранные рейсы</string>
+    <!-- %1$s — код аэропорта -->
+    <string name="title_flights_from">Рейсы из %1$s</string>
+
+    <string name="label_departure">Вылет</string>
+    <string name="label_arrival">Прилёт</string>
+    <!-- %1$s — номер рейса, %2$s — время вылета, %3$s — время прилёта -->
+    <string name="flight_number_and_time">Рейс %1$s · %2$s → %3$s</string>
+
+    <string name="favorite_add">Добавить в избранное</string>
+    <string name="favorite_remove">Удалить из избранного</string>
+
+    <string name="empty_favorites">Избранных рейсов пока нет.\nНайдите аэропорт и отметьте рейс сердечком.</string>
+    <string name="empty_flights">Рейсы из этого аэропорта не найдены.</string>
+    <string name="error_airport_not_found">Аэропорт не найден. Проверьте код или название.</string>
+    <string name="error_database">Не удалось прочитать базу данных рейсов.</string>
 </resources>

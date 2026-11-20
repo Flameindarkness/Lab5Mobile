@@ -2,4 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="app_bar">#FF1E5AA8</color>
+    <color name="primary_light_theme">#FF1E5AA8</color>
+    <color name="primary_dark_theme">#FFA8C8FF</color>
+    <color name="favorite">#FFD32F2F</color>
 </resources>
